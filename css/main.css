@@ -1,1 +1,33 @@
-*{}
+body{
+  outline: 1px solid blue;
+  width: 900px;
+}
+h1{
+  color: #A9A9A9;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+hr{
+  width: 50px;
+  height: 5px;
+  color: red;
+  background-color: #A9A9A9;
+  margin-left: 0px;
+}
+div{
+  /*outline: 1px solid red;*/
+  display: inline-block;
+  padding:30px;
+  position: relative;
+}
+img{
+  width: 200px;
+
+}
+p{
+  position: absolute;
+  left: 200px;
+  bottom:  20px;
+  color: white;
+}
