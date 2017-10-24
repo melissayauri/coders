@@ -25,7 +25,10 @@ div{
 }
 img{
   width: 200px;
+}
 
+img:hover{
+  filter: opacity(.5);
 }
 p{
   position: absolute;
