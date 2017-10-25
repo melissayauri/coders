@@ -1,37 +1,48 @@
+
 body{
   /*outline: 1px solid blue;*/
   width: 900px;
+  font-family: 'Lato', sans-serif;
 }
-h1{
+/*titulo*/
+header h1{
   color: #A9A9A9;
-  font-family: sans-serif;
   font-size: 18px;
+  /*espacido a la izquierda y parte inferior*/
   margin-left: 28px;
   margin-bottom:  3px;
 }
-
-hr{
+/*linea horizontal*/
+header hr{
+  /*tamaño de la línea*/
   width: 50px;
   height: 5px;
-  color: red;
   background-color: #A9A9A9;
+  /*espaciado a la izquierda*/
   margin-left: 28px;
 }
-div{
+/*contenedor de la imagen y parráfo*/
+#box{
   /*outline: 1px solid red;*/
+  /*se posiciona en una linea pero mantiene su dimensiones de bloque*/
   display: inline-block;
   padding:30px;
+  /*posición para que se posicione los parráfos*/
   position: relative;
 }
-img{
+#box img{
   width: 200px;
+  /*efecto de opacidad*/
+  opacity: 0.6;
 }
-
+/*cuando el cursor pasa sobre la imagen,la imagen se satura*/
 img:hover{
-  filter: opacity(.5);
+  filter: saturate(200%);
 }
-p{
+#box p{
+  /*posicionamiento para que se coloque en la parte inferior del lado derecho*/
   position: absolute;
+  /*eje de coordenadas*/
   bottom:  20px;
   left: 120px;
   color: white;
